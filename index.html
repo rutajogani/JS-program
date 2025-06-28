@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="todo-container text-center">
+      <h1 class="text-4xl font-bold text-gray-800 text-center">
+        Welcome to Login Form
+      </h1>
+      <br />
+      <form action="/login" method="POST">
+        <input
+          type="text"
+          name="username"
+          class="text-center border-2 rounded-lg"
+          placeholder="Username"
+          required
+        />
+        <br />
+        <input
+          type="password"
+          name="password"
+          class="text-center border-2 rounded-lg"
+          placeholder="Password"
+          required
+        />
+      </form>
+      <button
+        id="submit"
+        class="bg-teal-100 rounded-lg px-3 py-0.5 cursor-pointer text-black border-2 border-[#121212]"
+      >
+        Submit
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
