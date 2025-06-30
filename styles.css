@@ -4,3 +4,24 @@
  box-sizing: border-box;
  font-family: "poppins", sans-serif;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #99ccff;
+}
+.wrapper{
+    width: 420px;
+    background:#ff99ff;
+    color: #121212;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100px;
+    height: 50px;
+    background: #d9b3ff;
+}
