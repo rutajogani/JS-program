@@ -16,4 +16,8 @@ function register() {
   } else {
     alert("Confirm password is not same!");
   }
+  const button = document.getElementById("btn");
+  button.addEventListener("click", () => {
+     window.location.href = "../index.html"; 
+  })
 }
