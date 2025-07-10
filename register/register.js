@@ -18,6 +18,6 @@ function register() {
   }
   const button = document.getElementById("btn");
   button.addEventListener("click", () => {
-     window.location.href = "../index.html"; 
+     window.location.href = "../login.html"; 
   })
 }
