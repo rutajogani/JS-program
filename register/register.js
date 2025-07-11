@@ -8,8 +8,6 @@ function register(event) {
   const confirmPassword = document.getElementById("confirm");
 
   if (password.value === confirmPassword.value) {
-    console.log("wr");
-
     localStorage.setItem(
       LOCAL_STORAGE_KEY,
       JSON.stringify({
